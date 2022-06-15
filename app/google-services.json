@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "855647871506",
+    "firebase_url": "https://virtual-tailo-default-rtdb.firebaseio.com",
+    "project_id": "virtual-tailo",
+    "storage_bucket": "virtual-tailo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855647871506:android:ea5f3100bec10e85716ecb",
+        "android_client_info": {
+          "package_name": "com.example.virtaapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855647871506-lrh4eqv3d52blrhn6icu1it8s1g43fk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBugOxRqr94XZeAFLkTahzixSQTCjmENfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855647871506-lrh4eqv3d52blrhn6icu1it8s1g43fk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855647871506:android:74a308ec986b29e0716ecb",
+        "android_client_info": {
+          "package_name": "opencv.org"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855647871506-lrh4eqv3d52blrhn6icu1it8s1g43fk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBugOxRqr94XZeAFLkTahzixSQTCjmENfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855647871506-lrh4eqv3d52blrhn6icu1it8s1g43fk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

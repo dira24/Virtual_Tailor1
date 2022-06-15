@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userukur"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <ImageButton
+        android:id="@+id/back"
+        style="@style/circle"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/btn_back"
+        android:minHeight="48dp"
+        android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userukur"
+            android:textSize="18sp"
+            android:textColor="@color/purple_700"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        style="@style/bg_abu" >
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/nama"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <RadioGroup
+            android:id="@+id/umur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/anak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/anak" />
+
+            <RadioButton
+                android:id="@+id/dewasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/dewasa" />
+        </RadioGroup>
+
+            <EditText
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/alamat"
+                tools:ignore="TouchTargetSizeCheck"
+                android:autofillHints="" />
+
+
+
+            <Button
+                android:id="@+id/captureimage"
+                style="@style/circle"
+                android:layout_width="123dp"
+                android:layout_height="28dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/ambil_gambar"
+                android:textSize="10sp" />
+
+
+        <ImageView
+            android:id="@+id/imagedata"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/ic_image" />
+
+        <Button
+            android:id="@+id/ukur"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/ukur"
+            style="@style/bg_black"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

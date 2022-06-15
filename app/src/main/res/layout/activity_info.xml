@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info"
+    android:padding="40dp"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/back"
+        style="@style/circle"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/btn_back"
+        android:minHeight="48dp"
+        android:src="@drawable/back"
+        tools:ignore="RedundantDescriptionCheck,RedundantDescriptionCheck,ImageContrastCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jdlinfo"
+        android:textSize="18sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginBottom="20dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView"
+        style="@style/bg_abu"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView"
+        style="@style/bg_abu"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView"
+        android:padding="10dp"
+        style="@style/bg_abu"/>
+
+</LinearLayout>
