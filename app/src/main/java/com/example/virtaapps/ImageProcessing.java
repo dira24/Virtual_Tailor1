@@ -36,6 +36,7 @@ public class ImageProcessing extends AppCompatActivity {
             Intent intent =new Intent(ImageProcessing.this,MainActivity.class); // activity skrg dan acticity yang akan dituju
             startActivity(intent);
         });
+        //halo
 
     }
 }
